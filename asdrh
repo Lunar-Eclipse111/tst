@@ -83,7 +83,7 @@ local ThrowKnife = game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):
 local ThrowCooldown = false;
 local ThrowCFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1);
 
-local TPTweenInfo = TweenInfo.new(0, Enum.EasingStyle.Linear, Enum.EasingDirection.Out);
+local TPTweenInfo = TweenInfo.new(0, Enum.EasingStyle.Linear, Enum.EasingDirection.Out,-1,false,4);
 -- TELEPORT OFFSET
 
 local TPOffset = CFrame.new(-1.8, -4, 1);  --(-2.-3.96,1.6)
